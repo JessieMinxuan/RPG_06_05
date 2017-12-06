@@ -15,5 +15,5 @@ Protagonist additionally has methods specialize, normalize, and getName
 Thief, Archer, and Medic are subclasses of Protagonist
 They each have a unique property so they have a unique constructor that overrides the original in the Protagonist class
 They also have an altered toString method that builds an added section to the shorter version as returned by the original in the Protagonist class
-
+The altered toString methods for each subclass showcases their special characteristics 
 Same thing applies to Zombie, Ghost, and Earthworm but they are subclasses of the Monster class instead of the Protagonist class
