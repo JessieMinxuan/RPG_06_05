@@ -88,13 +88,13 @@ public class YoRPG
     }catch(IOException e) { }
 
 
-    if (type == "Medic") {
+    if (type == "Medic") 
       pat = new Medic(name);
-    }
+    
 
-    if (type == "Archer") {
+    if (type == "Archer") 
       pat = new Archer(name);
-    }
+    
 
     if (type == "Thief")
       pat = new Thief(name);
