@@ -1,4 +1,4 @@
-public class Protagonist extends Character {
+public abstract class Protagonist extends Character {
 
     private String name;
 
@@ -24,9 +24,10 @@ public class Protagonist extends Character {
 	this.rating = 0.4;
     }
 
-    public String toString() {
-	System.out.println();
-	return "A hero named " + name + " has appeared! HP: " + health;
-    }
+    public abstract String toString();
 
+    //Instantiate a Protagonist
+    //Protagonist p = new Protagonist();
+    //error message:
+    //Protagonist.java:30: error: Protagonist is abstract; cannot be instantiated
 }
